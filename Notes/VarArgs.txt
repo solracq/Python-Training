@@ -1,0 +1,7 @@
+def spam(a="spam", b="spam", *arrrrrghs, **kwarrrgs):
+	print("a=", a)
+	print("b=", b)
+	print("args=", arrrrrghs)
+	print("kwargs=", kwarrrgs)
+
+spam("a", "b", "c", "d", f="f", g="g")
