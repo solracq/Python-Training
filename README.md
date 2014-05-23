@@ -1,4 +1,4 @@
 Python-Training
 ===============
 
-Training Course
+Training Course.
