@@ -5,3 +5,5 @@ def spam(a="spam", b="spam", *arrrrrghs, **kwarrrgs):
 	print("kwargs=", kwarrrgs)
 
 spam("a", "b", "c", "d", f="f", g="g")
+.
+
