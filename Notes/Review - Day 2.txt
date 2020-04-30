@@ -46,8 +46,8 @@ Sets
 
   * Not Indexed (check for membership only)
   * Unordered
-  * Allow Duplicate Values
-  * Modifiable
+  * Do NOT allow Duplicate Values
+  * Modifiable (set items can be added but they cannot be changed or updated)
   * No usable as a key in Dictionary
   * Backed by a hash table
 
@@ -76,7 +76,7 @@ Dictionaries
 
 Packing/Unpacking
   (x,y) = (y,x)
-  x,y = y,x
+  x,y = y,x # exchange value
 
 
 Slicing

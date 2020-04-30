@@ -84,8 +84,7 @@ Ternary Operator
 
 
 
-Question:
-    How to do a for loop?
-    What is "pass" for?
-    What is if __name__="main":?
+Questions:
+    What is "pass" for? It is a 'null' block to indicate that nothing happens
+    What is if __name__="main":? Code will be executed within the 'if' block only when code runs directly
 

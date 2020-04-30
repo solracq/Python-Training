@@ -26,7 +26,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="223c4166-7edd-42f7-9306-caa95892a195" name="Default Changelist" comment="Practice with tuples" />
+    <list default="true" id="223c4166-7edd-42f7-9306-caa95892a195" name="Default Changelist" comment="Practice with tuples">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$thonTuples.docx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588201210980</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Practice with tuples">
+      <created>1588201343220</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588201343220</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,9 +156,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="969" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588200267968" />
-    <state x="106" y="55" key="Vcs.Push.Dialog.v2" timestamp="1588201217727">
+    <state x="106" y="55" key="Vcs.Push.Dialog.v2" timestamp="1588201348111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="106" y="55" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588201217727" />
+    <state x="106" y="55" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588201348111" />
   </component>
 </project>
