@@ -28,7 +28,6 @@
   <component name="ChangeListManager">
     <list default="true" id="223c4166-7edd-42f7-9306-caa95892a195" name="Default Changelist" comment="Practice with tuples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../~$thonTuples.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonSQL" />
   </component>
   <component name="RunManager">
     <configuration name="basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -140,25 +139,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="Practice with tuples" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="969" height="279" key="GridCell.Tab.0.bottom" timestamp="1588200267968">
+    <state x="294" y="275" key="FileChooserDialogImpl" timestamp="1588278377382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="969" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588200267968" />
-    <state width="969" height="279" key="GridCell.Tab.0.center" timestamp="1588200267968">
+    <state x="294" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588278377382" />
+    <state width="969" height="279" key="GridCell.Tab.0.bottom" timestamp="1588278384059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="969" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588200267968" />
-    <state width="969" height="279" key="GridCell.Tab.0.left" timestamp="1588200267968">
+    <state width="969" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588278384059" />
+    <state width="969" height="279" key="GridCell.Tab.0.center" timestamp="1588278384059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="969" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588200267968" />
-    <state width="969" height="279" key="GridCell.Tab.0.right" timestamp="1588200267968">
+    <state width="969" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588278384059" />
+    <state width="969" height="279" key="GridCell.Tab.0.left" timestamp="1588278384059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="969" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588200267968" />
+    <state width="969" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588278384059" />
+    <state width="969" height="279" key="GridCell.Tab.0.right" timestamp="1588278384059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="969" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588278384059" />
     <state x="106" y="55" key="Vcs.Push.Dialog.v2" timestamp="1588201348111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="106" y="55" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588201348111" />
+    <state x="323" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588278329429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="323" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588278329429" />
   </component>
 </project>
