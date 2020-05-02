@@ -50,7 +50,7 @@ cur.execute('SELECT * FROM BasicInfo ORDER BY lastName')
 for row in cur:
     print(row)
 
-print('\nUpdating favorite subject of Octavio')
+print('\nUpdating favorite subject of Octavio.')
 cur.execute("UPDATE BasicInfo SET favoriteSubject = \'Politica\' WHERE name = \'Octavio\'")
 conn.commit()
 
