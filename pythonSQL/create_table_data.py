@@ -16,7 +16,7 @@ cur.execute('INSERT INTO BasicInfo (name, lastName, age, gender, grade, favorite
 cur.execute('INSERT INTO BasicInfo (name, lastName, age, gender, grade, favoriteSubject) VALUES (?, ?, ?, ?, ?, ?)', ('Elo', 'Perez', 37, 'F', 9, 'Biologia'))
 cur.execute('INSERT INTO BasicInfo (name, lastName, age, gender, grade, favoriteSubject) VALUES (?, ?, ?, ?, ?, ?)', ('Jessica', 'Parker', 22, 'F', 9, 'Kindergarten'))
 cur.execute('INSERT INTO BasicInfo (name, lastName, age, gender, grade, favoriteSubject) VALUES (?, ?, ?, ?, ?, ?)', ('Silvia', 'Campos', 26, 'F', 8, 'Music'))
-cur.execute('INSERT INTO BasicInfo (name, lastName, age, gender, grade, favoriteSubject) VALUES (?, ?, ?, ?, ?, ?)', ('Lorenia', 'Her', 33, 'F', 7, 'Veterinaira'))
+cur.execute('INSERT INTO BasicInfo (name, lastName, age, gender, grade, favoriteSubject) VALUES (?, ?, ?, ?, ?, ?)', ('Cacho', 'Perez', 33, 'F', 7, 'Veterinaira'))
 cur.execute('INSERT INTO BasicInfo (name, lastName, age, gender, grade, favoriteSubject) VALUES (?, ?, ?, ?, ?, ?)', ('Doug', 'Hefernnan', 43, 'M', 6, 'Truck Driving'))
 conn.commit()
 
@@ -51,10 +51,20 @@ for row in cur:
     print(row)
 
 print('\nUpdating favorite subject of Octavio.')
-cur.execute("UPDATE BasicInfo SET favoriteSubject = \'Politica\' WHERE name = \'Octavio\'")
+cur.execute("UPDATE BasicInfo SET favoriteSubject = \'Politica\' WHERE name = \'Octavio\' OR name = \'Milton\'")
 conn.commit()
 
 cur.execute("SELECT * FROM BasicInfo ORDER BY name ASC")
+for row in cur:
+    print(row)
+
+print('\nOrder table based on columns orders')
+cur.execute("SELECT name, lastName, favoriteSubject FROM BasicInfo ORDER BY 1, 2, 3")
+for row in cur:
+    print(row)
+
+print('\nGrouping columns: Putting together the students with the same lastname')
+cur.execute("SELECT name, lastName, SUM(age) FROM BasicInfo GROUP BY lastName")
 for row in cur:
     print(row)
 
