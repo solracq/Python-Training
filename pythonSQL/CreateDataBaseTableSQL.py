@@ -25,3 +25,8 @@ class CreateDB:
             self.cur.execute('SELECT * FROM ' + table)
         for row in self.cur:
             print(row)
+
+    def groupUserNames(self, table):
+        self.cur.execute('SELECT * FROM ' + table + ' WHERE fullName IN (\'CLARA^OSWALD\')')
+        for row in self.cur:
+            print(row)

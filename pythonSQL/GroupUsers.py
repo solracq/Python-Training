@@ -21,6 +21,8 @@ def create_users_database_table():
     sql_database.insertData('PID14', 'CLARA^OSWALD^COLEMAN', 'F', 19890224)
 
     sql_database.displayTable('UserRecords', True, 2)
+    print()
+    sql_database.groupUserNames('UserRecords')
 
     sql_database.closeDB()
 
