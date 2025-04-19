@@ -1,4 +1,4 @@
-Python-Training
+Python-Examples
 ===============
 
-Training Course.
+Material to learn and practice Python.

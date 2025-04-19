@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="Crixus" name="pytest" skipped="0" tests="6" time="0.086" timestamp="2020-04-01T22:06:23.993774"><testcase classname="test_square" file="test_square.py" line="14" name="test_sqrt" time="0.002"></testcase><testcase classname="test_square" file="test_square.py" line="20" name="testsqre" time="0.001"><failure message="assert 49 == 40
+  -49
+  +40">@pytest.mark.square
+    def testsqre():
+        num = 7
+&gt;       assert num**2 == 40
+E       assert 49 == 40
+E         -49
+E         +40
+
+test_square.py:24: AssertionError</failure></testcase><testcase classname="test_square" file="test_square.py" line="29" name="test_sqr[8-640]" time="0.001"></testcase><testcase classname="test_square" file="test_square.py" line="29" name="test_sqr[17-289]" time="0.002"></testcase><testcase classname="test_square" file="test_square.py" line="29" name="test_sqr[6-36]" time="0.001"></testcase><testcase classname="test_square" file="test_square.py" line="29" name="test_sqr[8-641]" time="0.001"></testcase></testsuite></testsuites>

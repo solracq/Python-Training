@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="Crixus" name="pytest" skipped="2" tests="8" time="0.087" timestamp="2020-02-12T21:12:42.750307"><testcase classname="test_sample1" file="test_sample1.py" line="14" name="test_file1_method1" time="0.001"><skipped message="" type="pytest.xfail"></skipped></testcase><testcase classname="test_sample1" file="test_sample1.py" line="21" name="test_file1_method2" time="0.000"></testcase><testcase classname="test_sample1" file="test_sample1.py" line="27" name="test_file1_method2a" time="0.000"><skipped message="unconditional skip" type="pytest.skip">test_sample1.py:28: unconditional skip</skipped></testcase><testcase classname="test_sample1" file="test_sample1.py" line="33" name="test_file1_method2b" time="0.001"></testcase><testcase classname="test_sample1" file="test_sample1.py" line="39" name="test_testarrosa" time="0.002"><failure message="AssertionError: test failed as x=1 and setup[0]=5
+assert 1 &gt; 5">setup = [5, 8, 3]
+
+    @pytest.mark.set5
+    def test_testarrosa(setup):
+        x = 1
+&gt;       assert x &gt; setup[0], &quot;test failed as x=&quot; + str(x) + &quot; and setup[0]=&quot; + str(setup[0])
+E       AssertionError: test failed as x=1 and setup[0]=5
+E       assert 1 &gt; 5
+
+test_sample1.py:43: AssertionError</failure></testcase><testcase classname="test_sample1" file="test_sample1.py" line="44" name="test_testarrosa2" time="0.002"></testcase><testcase classname="test_sample1" file="test_sample1.py" line="49" name="test_add[5-5-10]" time="0.002"></testcase><testcase classname="test_sample1" file="test_sample1.py" line="49" name="test_add[3-5-1]" time="0.001"><failure message="AssertionError: failed
+assert 8 == 1
+  -8
+  +1">input1 = 3, input2 = 5, output = 1
+
+    @pytest.mark.parametrize(&apos;input1, input2, output&apos;, [(5, 5, 10), (3, 5, 1)])
+    def test_add(input1, input2, output):
+&gt;       assert input1 + input2 == output, &apos;failed&apos;
+E       AssertionError: failed
+E       assert 8 == 1
+E         -8
+E         +1
+
+test_sample1.py:52: AssertionError</failure></testcase></testsuite></testsuites>

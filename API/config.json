@@ -1,0 +1,8 @@
+{
+  "host": "https://jsonplaceholder.typicode.com",
+  "getAPI": "/posts/1",
+  "postAPI":"/posts",
+  "mhost": "https://run.mocky.io/v3/GET_API_KEY",
+  "mgetAPI": "/books/1",
+  "mpostAPI": "/books/"
+}
